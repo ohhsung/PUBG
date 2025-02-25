@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'VITRO';
+    src: url('VITRO-CORE-OTF.eot');
+    src: url('VITRO-CORE-OTF.eot?#iefix') format('embedded-opentype'),
+        url('VITRO-CORE-OTF.woff2') format('woff2'),
+        url('VITRO-CORE-OTF.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+

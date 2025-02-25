@@ -1,0 +1,44 @@
+@font-face {
+    font-family: '';
+    src: url('YdestreetL00.eot');
+    src: url('YdestreetL00.eot?#iefix') format('embedded-opentype'),
+        url('YdestreetL00.woff2') format('woff2'),
+        url('YdestreetL00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Yide A';
+    src: url('YdestreetL.eot');
+    src: url('YdestreetL.eot?#iefix') format('embedded-opentype'),
+        url('YdestreetL.woff2') format('woff2'),
+        url('YdestreetL.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Yide B';
+    src: url('YdestreetB.eot');
+    src: url('YdestreetB.eot?#iefix') format('embedded-opentype'),
+        url('YdestreetB.woff2') format('woff2'),
+        url('YdestreetB.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '';
+    src: url('YdestreetB00.eot');
+    src: url('YdestreetB00.eot?#iefix') format('embedded-opentype'),
+        url('YdestreetB00.woff2') format('woff2'),
+        url('YdestreetB00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
