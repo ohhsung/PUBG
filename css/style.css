@@ -1,0 +1,888 @@
+@import url('../font/Vitro/stylesheet.css');
+@import url('../font/Pretendard/pretendard.css');
+@import url('../font/WideStrit/stylesheet.css');
+
+/* 기본적으로 모바일 메뉴 숨기기 */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: "Pretendard";
+    line-height: 1;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    white-space: nowrap;
+}
+
+img, video {
+    vertical-align: top;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style: none;
+}
+
+button {
+    all: unset;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+@media (min-width: 1025px) {
+
+    .mobile-tab,
+    .mobile-gnb {
+        display: none;
+    }
+
+    /* -------------------------- 헤더 --------------------------- */
+
+    #header {
+        z-index: 10;
+        position: relative;
+
+        white-space: nowrap;
+    }
+
+    #header .nav {
+        width: 95%;
+        /* width: 1874px; */
+        height: 55px;
+
+        background: #0b0b0b;
+        color: #fff;
+        opacity: 90%;
+
+        border-radius: 10px;
+
+        overflow: hidden;
+
+        position: fixed;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 13px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #header .logo {
+        width: 53px;
+        position: absolute;
+        left: 170px;
+    }
+
+    #header .logo img {
+        width: 100%;
+    }
+
+    /* ------------ daum game ------------ */
+
+    #header .daum-game {
+        width: 148px;
+        height: 55px;
+
+        padding: 20px 12px 20px 19px;
+
+        background: #787878;
+    }
+
+    #header .daum-game a {
+        display: flex;
+        align-items: center;
+
+        gap: 7px;
+    }
+
+    #header .daum-game h2 {
+        font-weight: 700;
+        font-size: 17px;
+    }
+
+    #header .daum-game h3 {
+        display: block;
+
+        font-family: 'Yide A';
+        font-size: 9px;
+        top: 40%;
+    }
+
+    #header .daum-game:hover {
+        cursor: pointer;
+        background: #626262;
+    }
+
+    /* ------------ gnb ------------ */
+
+    #header .gnb {
+        display: flex;
+        justify-content: space-between;
+
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #header .gnb li {
+        padding: 20px 30px;
+    }
+
+    #header .gnb li:hover {
+        cursor: pointer;
+        background: rgba(255, 255, 255, 0.3);
+    }
+
+    #header .gnb li.active {
+    background: rgba(255, 255, 255, 0.3);
+    }
+
+
+    /* ------------ login ------------ */
+
+    #header .login-play {
+        display: flex;
+        align-items: center;
+    }
+
+    #header .login-play h2:nth-child(1) {
+        margin-right: 20px;
+        padding-right: 20px;
+        border-right: 1px solid #575757;
+    }
+
+    #header .login-play h2:nth-child(1):hover {
+        text-decoration: underline;
+        text-underline-offset: 3px;
+        cursor: pointer;
+    }
+
+    #header .login-play h2:nth-child(2) {
+        padding: 12px 20px;
+        border-radius: 7px;
+        margin: 8px;
+
+        font-weight: 600;
+        color: #000;
+        background: #ffb60e;
+    }
+
+    #header .login-play h2:nth-child(2):hover {
+        background: #e68a0a;
+        cursor: pointer;
+    }
+
+    /* ################################## 메인 01 게임소식 ##################################### */
+
+    #main-01 .main-visual {
+        width: 100%;
+        height: 734px;
+        position: relative;
+    }
+
+    #main-01 .main-visual video {
+        width: 100%;
+        height: 100%;
+
+        object-fit: cover;
+    }
+
+    #main-01 .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+
+    /* --------main text-------- */
+
+    #main-01 .main-text {
+        position: absolute;
+        left: 50%;
+        top: 53%;
+        transform: translate(-50%, -50%);
+    }
+
+    #main-01 .main-text {
+        width: 287px;
+        text-align: center;
+    }
+
+    #main-01 .main-text h3 {
+        font-weight: 600;
+        font-size: 18px;
+        color: #fff;
+
+        margin-bottom: 30px;
+    }
+
+    #main-01 .main-text img {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    #main-01 .main-text a {
+        display: inline-block;
+
+        font-weight: 700;
+        font-size: 18px;
+        color: #000;
+
+        padding: 20px 30px;
+        background: #ffb60e;
+
+        text-align: center;
+    }
+
+    #main-01 .main-text a:hover {
+        background: #e68a0a;
+        cursor: pointer;
+    }
+
+    /* --------------------------- 메인 01 게임설명 섹션 01 ---------------------------- */
+
+    #section-01 {
+        width: 100%;
+        height: 710px;
+
+        background: #dfdcd5;
+
+        padding: 130px 100px;
+    }
+
+    #section-01 .content {
+        display: flex;
+        gap: 80px;
+
+        height: 450px;
+    }
+
+    #section-01 .item {
+        width: 50%;
+        padding: 20px 0 20px 20px;
+
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-between;
+    }
+
+    #section-01 .text h3 {
+        font-family: "VITRO";
+        font-size: 48px;
+        margin-bottom: 20px;
+    }
+
+    #section-01 .text p {
+        font-weight: 300;
+        line-height: 31.5px;
+        font-size: 21px;
+
+        height: 252px;
+        overflow: hidden;
+    }
+
+    #section-01 .item button {
+        background: #2a2a2a;
+        padding: 20px 30px;
+        color: #fff;
+
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    #section-01 .item button:hover {
+        background: #4d4d4d;
+    }
+
+    /* ------------- video 1 ------------ */
+
+    #section-01 video {
+        width: 50%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    /* --------------------------- 메인 01 게임설명 섹션 02 ---------------------------- */
+
+    #section-02 {
+        width: 100%;
+        height: 710px;
+
+        background: #484848;
+
+        padding: 130px 100px;
+    }
+
+    #section-02 .content {
+        display: flex;
+        gap: 80px;
+
+        height: 450px;
+    }
+
+    #section-02 .item {
+        width: 50%;
+        padding: 20px 0 20px 20px;
+
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-between;
+    }
+
+    #section-02 .text {
+        color: #fff;
+    }
+
+    #section-02 .text h3 {
+        font-family: "VITRO";
+        font-size: 48px;
+        margin-bottom: 20px;
+    }
+
+    #section-02 .text p {
+        font-weight: 300;
+        line-height: 31.5px;
+        font-size: 21px;
+
+        height: 252px;
+        overflow: hidden;
+    }
+
+    #section-02 .item button {
+        background: #f2f2f2;
+        padding: 20px 30px;
+        color: #000;
+
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    #section-02 .item button:hover {
+        background: #d1d1d1;
+    }
+
+    /* ------------- video 2------------ */
+
+    #section-02 video {
+        width: 50%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    /* --------------------------- 메인 01 게임설명 섹션 03 ---------------------------- */
+
+    #section-03 {
+        width: 100%;
+        height: 710px;
+
+        background: #dfdcd5;
+
+        padding: 130px 100px;
+    }
+
+    #section-03 .content {
+        display: flex;
+        gap: 80px;
+
+        height: 450px;
+    }
+
+    #section-03 .item {
+        width: 50%;
+        padding: 20px 0 20px 20px;
+
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-between;
+    }
+
+    #section-03 .text h3 {
+        font-family: "VITRO";
+        font-size: 48px;
+        margin-bottom: 20px;
+    }
+
+    #section-03 .text p {
+        font-weight: 300;
+        line-height: 31.5px;
+        font-size: 21px;
+
+        height: 252px;
+        overflow: hidden;
+    }
+
+    #section-03 .item button {
+        background: #2a2a2a;
+        padding: 20px 30px;
+        color: #fff;
+
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    #section-03 .item button:hover {
+        background: #4d4d4d;
+    }
+
+    /* ------------- video 1 ------------ */
+
+    #section-03 video {
+        width: 50%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    /* --------------------------- 메인 01 게임설명 섹션 04 ---------------------------- */
+
+    #section-04 {
+        width: 100%;
+        height: 710px;
+
+        background: #eaa810;
+
+        padding: 130px 100px;
+    }
+
+    #section-04 .content {
+        display: flex;
+        gap: 80px;
+
+        height: 450px;
+    }
+
+    #section-04 .item {
+        width: 50%;
+        padding: 20px 0 20px 20px;
+
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-between;
+    }
+
+    #section-04 .text h3 {
+        font-family: "VITRO";
+        font-size: 48px;
+        margin-bottom: 20px;
+    }
+
+    #section-04 .text p {
+        font-weight: 300;
+        line-height: 31.5px;
+        font-size: 21px;
+
+        height: 252px;
+        overflow: hidden;
+    }
+
+    #section-04 .item button {
+        background: #f2f2f2;
+        padding: 20px 30px;
+        color: #000;
+
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    #section-04 .item button:hover {
+        background: #d1d1d1;
+    }
+
+    /* ------------- video 4 ------------ */
+
+    #section-04 video {
+        width: 50%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    /* --------------------------- 메인 01 게임설명 섹션 05 ---------------------------- */
+
+    #section-05 {
+        width: 100%;
+        height: 710px;
+
+        background: #dfdcd5;
+
+        padding: 130px 100px;
+    }
+
+    #section-05 .content {
+        display: flex;
+
+        height: 450px;
+        gap: 80px;
+    }
+
+    #section-05 .item {
+        width: 50%;
+        padding: 20px 0 20px 20px;
+
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-between;
+    }
+
+    #section-05 .text h3 {
+        font-family: "VITRO";
+        font-size: 48px;
+        margin-bottom: 20px;
+    }
+
+    #section-05 .text p {
+        font-weight: 300;
+        line-height: 31.5px;
+        font-size: 21px;
+
+        height: 252px;
+        overflow: hidden;
+    }
+
+    #section-05 .item button {
+        background: #2a2a2a;
+        padding: 20px 30px;
+        color: #fff;
+
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    #section-05 .item button:hover {
+        background: #4d4d4d;
+    }
+
+    /* ------------- img 5 ------------ */
+
+    #section-05 img {
+        width: 50%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    /* --------------------------- 메인 01 게임설명 섹션 06 ---------------------------- */
+
+    #section-06 {
+        width: 100%;
+        height: 710px;
+
+        background: #484848;
+
+        padding: 130px 100px;
+    }
+
+    #section-06 .content {
+        display: flex;
+        gap: 80px;
+
+        height: 450px;
+    }
+
+    #section-06 .item {
+        width: 50%;
+        padding: 20px 0 20px 20px;
+
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-between;
+    }
+
+    #section-06 .text {
+        color: #fff;
+    }
+
+    #section-06 .text h3 {
+        font-family: "VITRO";
+        font-size: 48px;
+        margin-bottom: 20px;
+    }
+
+    #section-06 .text p {
+        font-weight: 300;
+        line-height: 31.5px;
+        font-size: 21px;
+
+        height: 252px;
+        overflow: hidden;
+    }
+
+    #section-06 .item button {
+        background: #f2f2f2;
+        padding: 20px 30px;
+        color: #000;
+        
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    #section-06 .item button:hover {
+        background: #d1d1d1;
+    }
+
+    /* ------------- video 6------------ */
+
+    #section-06 video {
+        width: 50%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    /* ################################## 메인 02 새소식 ##################################### */
+
+    #main-02 {
+        background: #dfdcd5;
+    }
+
+    #main-02 .header {
+        width: 100%;
+        height: 430px;
+
+        background: #eaa810;
+
+        padding: 260px 100px 0;
+    }
+
+    #main-02 .header h2 {
+        display: inline-block;
+        
+        font-family: "VITRO";
+        font-size: 90px;
+        color: #fff;
+    }
+
+    #main-02 .container {
+        width: 100%;
+        padding: 100px;
+
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #main-02 .item-wrap {
+        width: 100%;
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-content: space-between;
+
+        gap: 40px;
+    }
+
+    #main-02 .item {
+        width: 30%;
+    }
+
+    #main-02 .item img {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    #main-02 .item p {
+        font-size: 14px;
+        color: #555;
+        font-weight: 600;
+    }
+
+    #main-02 .item h3 {
+        width: 90%;
+        white-space: normal;
+
+        line-height: 28.6px;
+        font-weight: 600;
+        font-size: 22px;
+
+        margin: 10px 0 8px;
+    }
+
+    #main-02 .item span {
+        display: block;
+        width: 95%;
+
+        color: #444;
+        line-height: 24px;
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    #main-02 .more-view {
+        padding: 22px 30px;
+        background: #f2f2f2;
+        font-size: 21px;
+        font-weight: 600;
+        margin-top: 80px;
+    }
+
+    #main-02 .more-view:hover {
+        background: #d1d1d1;
+    }
+
+    /* ################################## 메인 03 커뮤니티 ##################################### */
+
+    #main-03 {
+        background: #dfdcd5;
+    }
+
+    #main-03 .header {
+        width: 100%;
+        height: 430px;
+
+        background: #eaa810;
+
+        padding: 260px 100px 0;
+    }
+
+    #main-03 .header h2 {
+        display: inline-block;
+        
+        font-family: "VITRO";
+        font-size: 90px;
+        color: #fff;
+    }
+
+    /* ################################## 메인 04 고객센터 ##################################### */
+
+    #main-04 {
+        background: #dfdcd5;
+    }
+
+    #main-04 .header {
+        width: 100%;
+        height: 430px;
+
+        background: #eaa810;
+
+        padding: 260px 100px 0;
+    }
+
+    #main-04 .header h2 {
+        display: inline-block;
+        
+        font-family: "VITRO";
+        font-size: 90px;
+        color: #fff;
+    }
+
+    /* ################################## 메인 05 굿즈 ##################################### */
+
+    #main-05 {
+        background: #dfdcd5;
+    }
+
+    #main-05 .header {
+        width: 100%;
+        height: 430px;
+
+        background: #eaa810;
+
+        padding: 260px 100px 0;
+    }
+
+    #main-05 .header h2 {
+        display: inline-block;
+        
+        font-family: "VITRO";
+        font-size: 90px;
+        color: #fff;
+    }
+
+}
+/* ---- 여기까지 반응형 ---- */
+
+/* ------------------------------ 푸터 (공통 반응형) ------------------------------ */
+
+#footer {
+    padding: 50px 0;
+    width: 100%;
+
+    background: #191a1c;
+}
+
+#footer .sns {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+
+    gap: 14px;
+    margin-bottom: 50px;
+}
+
+#footer .sns img {
+    width: 40px;
+}
+
+#footer .logo {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    margin-bottom: 30px;
+}
+
+#footer .logo img:nth-child(1) {
+    height: 27px;
+}
+
+#footer .logo img:nth-child(2) {
+    height: 24px;
+}
+
+#footer .link {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    gap: 8px;
+    margin-bottom: 30px;
+
+    color: #c7c7c7;
+}
+
+#footer .link li {
+    font-size: 14px;
+}
+
+#footer .margin {
+    width: 100%;
+}
+
+#footer .br {
+    border-right: 1px solid #8f8f8f;
+    padding-right: 8px;
+}
+
+#footer .company,
+#footer .copy {
+    padding: 0 50px;
+    font-size: 14px;
+    color: #777;
+
+    text-align: center;
+}
+
+#footer .company {
+    margin-bottom: 20px;
+}
+
+#footer .sns img:hover,
+#footer .logo img:hover {
+    opacity: 0.8;
+}
