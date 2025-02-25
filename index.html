@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PUBG</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/tablet.css">
+
+    <script src="js/script.js"></script>
+
+</head>
+
+<body>
+    <header id="header">
+        <div class="nav">
+            <div class="logo">
+                <h1><a href="index.html"><img src="img/logo/pubg.png" alt=""></a></h1>
+            </div>
+
+            <div class="daum-game">
+                <a href="#">
+                    <img src="img/logo/daum.png" alt="">
+                    <h2>게임</h2>
+                    <h3>v</h3>
+
+                    <!-- 모바일 -->
+                    <svg class="mobile-tab" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
+                        width="24px" fill="#fff">
+                        <path
+                            d="M480-160q-33 0-56.5-23.5T400-240q0-33 23.5-56.5T480-320q33 0 56.5 23.5T560-240q0 33-23.5 56.5T480-160Zm0-240q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm0-240q-33 0-56.5-23.5T400-720q0-33 23.5-56.5T480-800q33 0 56.5 23.5T560-720q0 33-23.5 56.5T480-640Z" />
+                    </svg>
+                </a>
+            </div>
+
+            <ul class="gnb">
+                <li data-target="section-01" class="active">게임설명</li>
+                <li data-target="section-02">새소식</li>
+                <li data-target="section-03">커뮤니티</li>
+                <li data-target="section-04">고객센터</li>
+                <li data-target="section-05">굿즈</li>
+            </ul>
+
+            <div class="login-play">
+                <h2>로그인</h2>
+                <h2>지금 플레이하기</h2>
+
+                <!-- 모바일 -->
+                <svg class="mobile-tab" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
+                    width="24px" fill="#fff">
+                    <path
+                        d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z" />
+                </svg>
+
+                <svg class="mobile-tab" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
+                    width="24px" fill="#fff" id="menu-toggle">
+                    <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                </svg>
+            </div>
+        </div><!-- nav -->
+    </header>
+
+
+
+    <!-- ########################################################
+     ###################### 메인 1 게임설명 ######################
+     ############################################################ -->
+
+    <div id="main-01">
+        <div class="main-visual">
+            <video autoplay muted loop>
+                <source src="vid/pubg_main_visual.mp4" type="video/mp4">
+                pubg video
+            </video>
+
+            <div class="overlay"></div>
+
+            <div class="main-text">
+                <h3>최후의 1인까지 생존하세요</h3>
+                <img src="img/logo/pubg2.png" alt="">
+                <h2>
+                    <a href="#">무료로 플레이 하세요</a>
+                </h2>
+            </div>
+        </div><!-- main-visual -->
+
+        <section id="section-01">
+            <div class="content">
+                <div class="item">
+                    <div class="text">
+                        <h3>자유낙하</h3>
+                        <p>
+                            낙하산을 타고 전투의 한가운데로 뛰어듭니다. 빠르게 펼쳐지는 하늘 아래, 수많은 적들과의 치열한 싸움이 여러분을 기다리고 있습니다. 적진을 향해 내려오는 순간, 전투
+                            본능이 깨어납니다. 첫째로, 낙하산 강하를 통해 최적의 전략적 위치를 선점할 수 있습니다. 높은 곳에서부터 적의 움직임을 파악하고, 최적의 위치
+                            에 착지하여 전투의 주도권을 잡으세요.
+                        </p>
+                    </div>
+
+                    <button type="button">자세히 보기</button>
+                </div><!-- item -->
+
+                <video autoplay muted loop>
+                    <source src="vid/pubg_parachute.mp4" type="video/mp4">
+                    자유낙하 비디오
+                </video>
+            </div><!-- content -->
+        </section><!-- 01 -->
+
+        <section id="section-02">
+            <div class="content">
+                <video autoplay muted loop>
+                    <source src="vid/pubg_farming.mp4" type="video/mp4">
+                    아이템 수집 비디오
+                </video>
+
+                <div class="item">
+                    <div class="text">
+                        <h3>아이템 수집</h3>
+                        <p>
+                            배틀그라운드에서 생존을 위한 핵심은 바로 아이템 파밍입니다! 게임의 시작과 함께, 무기, 방어구, 회복 아이템 등 다양한 장비를 찾는 것이 중요합니다. 적과의
+                            전투에서 유리한 고지를 점하기 위해서는 강력한 무기를 장착하고, 생존을 위해서는 튼튼한 방어구와 충분한 회복 아이템이 필요합니다.
+                        </p>
+                    </div>
+
+                    <button type="button">자세히 보기</button>
+                </div><!-- item -->
+            </div><!-- content -->
+        </section><!-- 02 -->
+
+        <section id="section-03">
+            <div class="content">
+                <div class="item">
+                    <div class="text">
+                        <h3>무작위 전투</h3>
+                        <p>
+                            배틀그라운드는 매 순간이 치열한 전투의 연속입니다. 무작위로 마주치는 적들과의 전투에서 승리하기 위해선 빠른 판단력과 전략적인 사고가 필요합니다. 매치가 진행되면서
+                            점점 좁혀지는 안전 구역 안에서, 자신만의 방식으로 적을 처치하고 생존을 이어가야 합니다.
+                        </p>
+                    </div>
+
+                    <button type="button">자세히 보기</button>
+                </div><!-- item -->
+
+                <video autoplay muted loop>
+                    <source src="vid/pubg_random_battle.mp4" type="video/mp4">
+                    무작위 전투 비디오
+                </video>
+            </div><!-- content -->
+        </section><!-- 01 -->
+
+        <section id="section-04">
+            <div class="content">
+                <video autoplay muted loop>
+                    <source src="vid/pubg_chicken.mp4" type="video/mp4">
+                    최후의 1인 비디오
+                </video>
+
+                <div class="item">
+                    <div class="text">
+                        <h3>최후의 1인</h3>
+                        <p>
+                            배틀그라운드의 궁극적인 목표는 최후의 1인이 되어 생존하는 것 입니다. 치열한 전투와 전략을 통해, 마지막까지 살아남는 자만이 승리자가 될 수 있습니다. 생존을 위한
+                            싸움은 단순히 적을 처치하는 것만으로 끝나지 않습니다. 지형을 활용하고, 아이템을 효율적으로 관리하며, 타이밍을 놓치지 않는 것이 중요합니다.
+                        </p>
+                    </div>
+
+                    <button type="button">자세히 보기</button>
+                </div><!-- item -->
+            </div><!-- content -->
+        </section><!-- 04 -->
+
+        <section id="section-05">
+            <div class="content">
+                <div class="item">
+                    <div class="text">
+                        <h3>총기 정보</h3>
+                        <p>
+                            배틀그라운드에는 돌격소총, 기관단총, 샷건 등 다양한 총기가있습니다. 돌격소총은 중장거리에서 유용하고, 기관단총은 빠른연사로 근거리 전투에 강합니다. 샷건은
+                            근접전에서 강력한 데미지를 주며, 각 총기는 취향에 맞게 선택해 사용할 수 있습니다.
+                        </p>
+                    </div>
+
+                    <button type="button">자세히 보기</button>
+                </div><!-- item -->
+
+                <img src="img/nomal/gun.png" alt="">
+            </div><!-- content -->
+        </section><!-- 05 -->
+
+        <section id="section-06">
+            <div class="content">
+                <video autoplay muted loop>
+                    <source src="vid/pubg_map.mp4" type="video/mp4">
+                    맵 정보 비디오
+                </video>
+
+                <div class="item">
+                    <div class="text">
+                        <h3>맵정보</h3>
+                        <p>
+                            배틀그라운드에는 다양한 맵이 존재하며, 각 맵은 고유한 특징과 전략적인 요소를 제공합니다. 플레이어는 각 맵에 맞는 전략을 세워 생존해야 합니다. 맵은 일반적으로
+                            환경, 크기, 지형 등이 다르게 구성되어 있어, 같은 전투라도 맵에 따라 다른 경험을 할 수 있습니다.
+                        </p>
+                    </div>
+
+                    <button type="button">자세히 보기</button>
+                </div><!-- item -->
+            </div><!-- content -->
+        </section><!-- 06 -->
+    </div><!-- ############### main-01 ###############s -->
+
+    <!-- ########################################################
+     ####################### 메인 2 새소식 #######################
+     ############################################################ -->
+
+    <div id="main-02">
+        <div class="header">
+            <h2>새 소식</h2>
+        </div>
+
+        <div class="container">
+            <div class="item-wrap">
+                <!-- 1 -->
+                <div class="item">
+                    <img src="img/nomal/1.png" alt="">
+                    <p>공지사항 | 25.02.25</p>
+                    <h3>2월 19일(수) 무점검 패치 안내</h3>
+                    <span>
+                        게임 중 Alt+Tab 사용 시 발생하는 프리징 및 크래시 현상 일부 원인이 되는 요소를 수정하여 해당 이슈의 발생 가능성을 줄였습니다.
+                    </span>
+                </div>
+
+                <!-- 2 -->
+                <div class="item">
+                    <img src="img/nomal/2.png" alt="">
+                    <p>대회소식 | 25.02.14</p>
+                    <h3>2025 PWS: PHASE 1 대회 안내</h3>
+                    <span>
+                        보다 공정한 경쟁 환경과 흥미로운 시청 경험을 제공하기 위해 다양한 변화가 적용되었는데요 새롭게 바뀐 PWS의 운영 방식과 경기 구조를 확인하고, 한국 최고의 배틀그라운드
+                        이스포츠 경기를 만나보세요!
+                    </span>
+                </div>
+
+                <!-- 3 -->
+                <div class="item">
+                    <img src="img/nomal/3.png" alt="">
+                    <p>이벤트 | 25.02.10</p>
+                    <h3>1월 상시 커뮤니티 이벤트 당첨자 안내</h3>
+                    <span>
+                        1월 기준 이벤트 당첨자분들께는 "골드 G-COIN 상자(30일 기간제)"이 지급되었으므로, 당첨 여부 확인과 함께 게임 내에서 보상을 확인해 주시기 바랍니다.
+                    </span>
+                </div>
+
+                <!-- 4 -->
+                <div class="item">
+                    <img src="img/nomal/4.png" alt="">
+                    <p>이벤트 | 25.02.08</p>
+                    <h3>개강 전, 출석 GO! 배틀그라운드 PC방 로그인
+                        이벤트</h3>
+                    <span>
+                        플레이어 분들의 새학기, 새로운 시작을 배틀그라운드가 응원합니다! 반가운 친구들과 함께 배틀그라운드를 즐겨보시는 것은 어떨까요? 스팀&카카오 플레이어분들 모두 참여 가능한
+                        배틀그라운드 PC방 이벤트가 시작됩니다.
+                    </span>
+                </div>
+
+                <!-- 5 -->
+                <div class="item">
+                    <img src="img/nomal/5.png" alt="">
+                    <p>업데이트 | 25.01.24</p>
+                    <h3>2월 배틀그라운드 상점 업데이트 안내</h3>
+                    <span>
+                        플레이어 여러분이 선호하시는 아이템이 더욱 자주 등장할 수 있도록 나만의 상점이 개편되었습니다! 파격적인 할인을 자랑하는 나만의 상점을 다시 한번 만나보세요.
+                    </span>
+                </div>
+
+                <!-- 6 -->
+                <div class="item">
+                    <img src="img/nomal/6.png" alt="">
+                    <p>공지사항 | 25.01.23 </p>
+                    <h3>[완료] 긴급 임시 점검 안내</h3>
+                    <span>
+                        안녕하세요. 카카오 배틀그라운드입니다. 서버 접속이 원활하지 않는 현상을 해결하기 위하여 긴급 임시 점검이 진행됩니다.
+                    </span>
+                </div>
+
+                <!-- 7 -->
+                <div class="item">
+                    <img src="img/nomal/7.png" alt="">
+                    <p>공지사항 | 25.01.20</p>
+                    <h3>[정상화] 게임 접속 및 매칭 지연 현상 안내</h3>
+                    <span>
+                        게임 접속 및 매칭이 원활하지 않은 문제가 발생하였으며, 현재 문제점 해결을 위한 원인 파악 및 복구 작업을 진행 중입니다. 갑작스러운 장애로 플레이어 여러분께 불편을 끼친
+                        점 다시 한 번 깊은 사과 말씀 드립니다.
+                    </span>
+                </div>
+
+                <!-- 8 -->
+                <div class="item">
+                    <img src="img/nomal/8.png" alt="">
+                    <p>대회소식 | 25.01.12</p>
+                    <h3>2025 배틀그라운드 이스포츠 연간 일정 안내</h3>
+                    <span>
+                        더 많아진 프로팀, 더욱 확장된 PWS, 그리고 3인칭(TPP) 대회 마스터즈까지! 다양한 대회와 함께 더욱 풍성해진 2025년 배틀그라운드 이스포츠를 기대해 주세요.
+                        자세한 내용은 이미지 및 하단 내용을 통해 확인하실 수 있습니다.
+                    </span>
+                </div>
+
+                <!-- 9 -->
+                <div class="item">
+                    <img src="img/nomal/9.png" alt="">
+                    <p>이벤트 | 25.01.09</p>
+                    <h3>[수정] 오늘 저녁은 치킨이닭! 디스코드 이벤트</h3>
+                    <span>
+                        플레이하신 모드와 상관 없이 치킨을 드셨다면 해당 게시판에 스크린샷을 인증해주세요! 매월 추첨을 통해 선정된 분들께 골드 G-Coin 상자 (30일 기간제)을 드립니다.
+                    </span>
+                </div>
+
+                <!-- 10 -->
+                <div class="item">
+                    <img src="img/nomal/10.png" alt="">
+                    <p>GM소식 | 25.01.02</p>
+                    <h3>특별 보급 - 2025년 1월</h3>
+                    <span>
+                        이번 2월은 로그인 이벤트와 신규 아케이드 모드 '1 대 1 아레나' 업데이트에 따른 특별 이벤트 등 풍성한 보상과 함께합니다! 전장에서 더 큰 승리를 거머쥘 기회를 지금
+                        바로 확인해 보세요!
+                    </span>
+                </div>
+
+                <!-- 11 -->
+                <div class="item">
+                    <img src="img/nomal/11.png" alt="">
+                    <p>GM소식 | 25.01.01</p>
+                    <h3>전지적 배그 시점 EP. 5 라이브 방송 안내</h3>
+                    <span>
+                        2025 새해 복 많이 받으세요! 새해특집 전지적 배그 시점 다섯 번째 에피소드 소식을 전해드립니다. 2025년도 첫 번째 전지적 배그 시점은 새해특집으로 이전과는 조금
+                        다른 색다른 느낌으로 진행될 예정이니 다가오는 토요일 오후 6시!
+                    </span>
+                </div>
+
+                <!-- 12 -->
+                <div class="item">
+                    <img src="img/nomal/12.png" alt="">
+                    <p>이벤트 | 23.12.29</p>
+                    <h3>루트 트럭의 귀환! 이벤트</h3>
+                    <span>
+                        사녹 맵을 더욱 무장된 상태로 즐길 수 있게 해줄 루트 트럭의 귀환 소식을 전해드립니다! 사녹에서 루트 트럭을 찾아 파괴하고 적들의 눈을 피해 아이템을 파밍해 보세요.
+                        폭발하는 루트 트럭에 너무 붙어있으면 데미지를 입을 수도 있음!
+                    </span>
+                </div>
+            </div><!-- item-wrap -->
+
+            <button class="more-view">더보기</button>
+        </div><!-- container -->
+    </div><!-- ############### main-02 ############### -->
+
+    <div id="main-03">
+        <div class="header">
+            <h2>커뮤니티</h2>
+        </div>
+    </div>
+
+    <div id="main-04">
+        <div class="header">
+            <h2>고객센터</h2>
+        </div>
+    </div>
+
+    <div id="main-05">
+        <div class="header">
+            <h2>굿즈</h2>
+        </div>
+    </div>
+
+    <footer id="footer">
+        <div class="sns">
+            <a href="#"><img src="img/logo/facebook.png" alt=""></a>
+            <a href="#"><img src="img/logo/discord.png" alt=""></a>
+            <a href="#"><img src="img/logo/instagram.png" alt=""></a>
+            <a href="#"><img src="img/logo/kakao-talk.png" alt=""></a>
+            <a href="#"><img src="img/logo/youtube.png" alt=""></a>
+            <a href="#"><img src="img/logo/tiktok.png" alt=""></a>
+        </div>
+        <div class="logo">
+            <a href="#"><img src="img/logo/kakaogames.png" alt=""></a>
+            <a href="#"><img src="img/logo/krafton.png" alt=""></a>
+        </div>
+
+        <ul class="link">
+            <a href="#">
+                <li class="br">개인정보처리방침</li>
+            </a>
+            <a href="#">
+                <li class="br">서비스 약관/정책</li>
+            </a>
+            <a href="#">
+                <li>청소년보호정책</li>
+            </a>
+
+            <div class="margin"></div>
+
+            <a href="#">
+                <li class="br">권리침해신고</li>
+            </a>
+            <a href="#">
+                <li class="br">배틀그라운드 운영정책</li>
+            </a>
+            <a href="#">
+                <li>게임이용등급</li>
+            </a>
+        </ul>
+        <div class="company">
+            <p>
+                ㈜카카오게임즈 대표이사 : 한상우 경기도 성남시 분당구 판교역로 152 알파돔타워 14층
+            </p>
+            <p>
+                사업자등록번호 : 144-81-18454 통신판매업 신고번호 제 2015-경기성남-0971 사업자 정보 확인
+            </p>
+            <p>
+                대표번호 : 1566-8834 | FAX : 031-8017-8800 | E-mail : contact@kakaogames.com (본 메일은 수신 전용입니다)
+            </p>
+        </div>
+        <div class="copy">
+            <p>
+                © 2017 Kakao Games Corp. & KRAFTON Inc. All Rights Reserved.
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
