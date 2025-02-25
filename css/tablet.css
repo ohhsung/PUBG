@@ -240,16 +240,17 @@
     }
 
     #section-01 .item button {
-        position: absolute;
-        top: 0px;
-        right: 0;
-
         background: #2a2a2a;
-        padding: 10px 13px;
+        padding: 20px 30px;
         color: #fff;
 
-        font-size: 20px;
+        font-size: 21px;
         font-weight: 600;
+
+        font-size: 18px;
+        font-weight: 600;
+        
+        margin-bottom: 20px;
     }
 
     #section-01 .item button:hover {
@@ -302,16 +303,17 @@
     }
 
     #section-02 .item button {
-        position: absolute;
-        top: 0px;
-        right: 0;
+        background: #2a2a2a;
+        padding: 20px 30px;
+        color: #fff;
 
-        background: #f2f2f2;
-        padding: 10px 13px;
-        color: #000;
-
-        font-size: 20px;
+        font-size: 21px;
         font-weight: 600;
+
+        font-size: 18px;
+        font-weight: 600;
+        
+        margin-bottom: 20px;
     }
 
     #section-02 .item button:hover {
@@ -355,16 +357,17 @@
     }
 
     #section-03 .item button {
-        position: absolute;
-        top: 0px;
-        right: 0;
-
         background: #2a2a2a;
-        padding: 10px 13px;
+        padding: 20px 30px;
         color: #fff;
 
-        font-size: 20px;
+        font-size: 21px;
         font-weight: 600;
+
+        font-size: 18px;
+        font-weight: 600;
+        
+        margin-bottom: 20px;
     }
 
     #section-03 .item button:hover {
@@ -413,16 +416,17 @@
     }
 
     #section-04 .item button {
-        position: absolute;
-        top: 0px;
-        right: 0;
+        background: #2a2a2a;
+        padding: 20px 30px;
+        color: #fff;
 
-        background: #f2f2f2;
-        padding: 10px 13px;
-        color: #000;
-
-        font-size: 20px;
+        font-size: 21px;
         font-weight: 600;
+
+        font-size: 18px;
+        font-weight: 600;
+        
+        margin-bottom: 20px;
     }
 
     #section-04 .item button:hover {
@@ -466,16 +470,17 @@
     }
 
     #section-05 .item button {
-        position: absolute;
-        top: 0px;
-        right: 0;
-
         background: #2a2a2a;
-        padding: 10px 13px;
+        padding: 20px 30px;
         color: #fff;
 
-        font-size: 20px;
+        font-size: 21px;
         font-weight: 600;
+
+        font-size: 18px;
+        font-weight: 600;
+        
+        margin-bottom: 20px;
     }
 
     #section-05 .item button:hover {
@@ -528,16 +533,17 @@
     }
 
     #section-06 .item button {
-        position: absolute;
-        top: 0px;
-        right: 0;
+        background: #2a2a2a;
+        padding: 20px 30px;
+        color: #fff;
 
-        background: #f2f2f2;
-        padding: 10px 13px;
-        color: #000;
-
-        font-size: 20px;
+        font-size: 21px;
         font-weight: 600;
+
+        font-size: 18px;
+        font-weight: 600;
+        
+        margin-bottom: 20px;
     }
 
     #section-06 .item button:hover {
