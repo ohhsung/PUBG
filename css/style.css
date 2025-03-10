@@ -837,12 +837,12 @@ button {
     margin-bottom: 30px;
 }
 
-#footer .logo img:nth-child(1) {
-    height: 27px;
+#footer .kakao-games img {
+    width: 130px;
 }
 
-#footer .logo img:nth-child(2) {
-    height: 24px;
+#footer .krafton img {
+    width: 110px;
 }
 
 #footer .link {
@@ -857,7 +857,7 @@ button {
 }
 
 #footer .link li {
-    font-size: 14px;
+    font-size: 12px;
 }
 
 #footer .margin {
@@ -869,10 +869,10 @@ button {
     padding-right: 8px;
 }
 
-#footer .company,
-#footer .copy {
-    padding: 0 50px;
-    font-size: 14px;
+#footer .company p,
+#footer .copy p{
+    padding: 0 100px;
+    font-size: 12px;
     color: #777;
 
     text-align: center;
